@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="attrs" />
+          <option value="certifi" />
+          <option value="cffi" />
+          <option value="h11" />
+          <option value="idna" />
+          <option value="outcome" />
+          <option value="pycparser" />
+          <option value="PySocks" />
+          <option value="selenium" />
+          <option value="sniffio" />
+          <option value="sortedcontainers" />
+          <option value="trio" />
+          <option value="trio-websocket" />
+          <option value="typing_extensions" />
+          <option value="urllib3" />
+          <option value="websocket-client" />
+          <option value="wsproto" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="playwright.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,47 @@
+
+{% extends 'myapp/base.html' %}
+
+{% block body %}
+<div class="container">
+<div class="row">
+    {% for book in book_list %}
+    <div class="col-md-3">
+        <div class="card">
+            <img class="card-img-top" src="{{ book.book_image.url }}" alt="card_image">
+            <div class="card-body">
+               <h5 class="card-title">{{ book.name|truncatechars:22 }}</h5>
+                <p class="card-text">£{{ book.price }}</p>
+                <a class ="btn btn-primary" href="{% url 'myapp:detail' book.id %}">View details</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</div>
+<div class="container mt-4">
+    <div class="d-flex justify-content-center">
+
+        {% if book_list.has_previous %}
+            <a class="btn btn-dark me-2"
+               href="?page={{ book_list.previous_page_number }}">
+               Previous
+            </a>
+        {% endif %}
+
+        <span class="btn btn-light disabled">
+            Page {{ book_list.number }} of {{ book_list.paginator.num_pages }}
+        </span>
+
+        {% if book_list.has_next %}
+            <a class="btn btn-dark" ms-2"
+               href="?page={{ book_list.next_page_number }}">
+               Next
+            </a>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}
+
+
+
