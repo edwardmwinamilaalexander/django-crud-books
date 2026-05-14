@@ -32,20 +32,17 @@ Bootstrap 5
 
 SQLite (default)
 
-HTML
-/ CSS
+HTML/ CSS
 ```
 📸 Screenshots
+### 🏠 Home Page
+<img src="https://github.com/user-attachments/assets/d61f886e-7d85-4d30-ad32-9eaa16278205" width="800">
 
-🏠 Home Page
-<img width="953" height="493" alt="image" src="https://github.com/user-attachments/assets/d61f886e-7d85-4d30-ad32-9eaa16278205" />
+### 📖 Book Detail Page
+<img src="https://github.com/user-attachments/assets/9864576e-fede-41f3-a28a-5c29d490a517" width="800">
 
-
-📖 Book Detail Page
-<img width="779" height="266" alt="image" src="https://github.com/user-attachments/assets/9864576e-fede-41f3-a28a-5c29d490a517" />
-
-
-➕ Add Book Page
+###➕ Add Book Page
+(Add your image here)
 
 
 
