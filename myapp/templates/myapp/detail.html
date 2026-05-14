@@ -17,17 +17,15 @@
             <h6>£ {{ book.price }}</h6>
             <a class="btn btn-warning" href="{% url 'myapp:update'  book.id %}">Update </a>
             <a class="btn btn-danger" href="{% url 'myapp:delete'  book.id %}">Delete </a>
+
         </div>
 
         <div class="col-md-1">
-
         </div>
-
-
     </div>
-
-
 </div>
-
+<div class="mt-2 text-center">
+    <a class="btn btn-primary" href="{% url 'myapp:index' %}">Back to home page</a>
+</div>
 
 {% endblock %}
