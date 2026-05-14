@@ -36,6 +36,7 @@ HTML
 / CSS
 ```
 📸 Screenshots
+```
 🏠 Home Page
 <img width="953" height="493" alt="image" src="https://github.com/user-attachments/assets/d61f886e-7d85-4d30-ad32-9eaa16278205" />
 
@@ -46,6 +47,6 @@ HTML
 
 ➕ Add Book Page
 
-
+```
 
 
